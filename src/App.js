@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import img1 from './images/img-1.jpg';
 function App() {
   const [sticky, setSticky] = useState({ isSticky: false, offset: 0 });
   const headerRef = useRef(null);
@@ -43,7 +44,7 @@ function App() {
             Teknolojinin derinliklerinde yatan bu yenilikçi yaklaşım, sadece sanatın değil, aynı zamanda teknolojinin ve insan yaratıcılığının da sınırlarını zorluyor. Biz, Beteligeusre olarak, sanat ve yapay zeka arasındaki etkileşimi keşfetmenize ve bu heyecan verici yolculuğa katılmanıza davet ediyoruz. Gel, yaratıcılığın sınırlarını aşalım ve yeni bir sanat deneyimine adım atalım!</h5>
           <br /><br />
           <h2>Doğanın Yankısı</h2>
-          <img className="fakeimg" alt="Description of the" src="/images/img-3.jpg" />
+          <img className="fakeimg" alt="Description of the" src={img1} />
           <p>Ormanın derinliklerinde gizlenen doğanın yankısına kulak verin. Yemyeşil yaprakların arasında kaybolurken, kuşların melodileriyle bütünleşin. Toprağın kokusu ve rüzgarın esintisiyle uyum içinde olun ve doğanın sırlarını keşfedin.</p>
           <br />
           <h2>Kozmik Dans</h2>
