@@ -1,5 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
 import img1 from './images/img-1.jpg';
+import img2 from './images/img-2.jpg';
+import img3 from './images/img-3.jpg';
+import img4 from './images/img-4.jpg';
+import imgs1 from './images/s-img-1.jpg';
+import imgs2 from './images/s-img-2.jpg';
+import imgs3 from './images/s-img-3.jpg';
+
 function App() {
   const [sticky, setSticky] = useState({ isSticky: false, offset: 0 });
   const headerRef = useRef(null);
@@ -48,30 +55,30 @@ function App() {
           <p>Ormanın derinliklerinde gizlenen doğanın yankısına kulak verin. Yemyeşil yaprakların arasında kaybolurken, kuşların melodileriyle bütünleşin. Toprağın kokusu ve rüzgarın esintisiyle uyum içinde olun ve doğanın sırlarını keşfedin.</p>
           <br />
           <h2>Kozmik Dans</h2>
-          <img className="fakeimg" alt="Description of the" src="/images/img-3.jpg" />
+          <img className="fakeimg" alt="Description of the" src={img2} />
           <p>Yıldızlar arası bir serüvene çıkarken, evrenin derinliklerindeki dansın ritmiyle bütünleşin. Galaksilerin ışıltılı dokusunda kaybolurken, zaman ve mekanın ötesinde bir yolculuğa adım atın. Sonsuzluğun büyüsüyle saran bu kozmik dans, ruhunuzun en derin köşelerine dokunacak.</p>
           <br />
           <hr />
           <br />
           <h2>Rüya Yankıları</h2>
-          <img className="fakeimg" alt="Description of the" src="/images/img-3.jpg" />
+          <img className="fakeimg" alt="Description of the" src={img3} />
           <p>Hayal ve gerçek arasındaki ince çizgide kaybolun. Rengarenk bulutların üzerinde süzülürken, rüya yankılarının şarkısı sizi saracak. Gerçeklikle imge arasında gidip gelirken, düşlerinizi keşfedin ve sonsuz bir masalsı dünyanın içinde kaybolun.</p>
           <br />
           <hr />
           <br />
           <h2>Geleceğin Sessizliği</h2>
-          <img className="fakeimg" alt="Description of the" src="/images/img-3.jpg" />
+          <img className="fakeimg" alt="Description of the" src={img4} />
           <p>Teknolojinin ilerleyen adımlarıyla sarılan bir dünyanın sessizliğine dalın. Çelik ve camın soğuk dokusunu hissederken, geleceğin sessizliği sizi kuşatacak. Makinelerin ritmiyle uyum içinde olun ve bilinmeyenin derinliklerinde yeni bir dünyanın kapılarını aralayın.</p>
         </div>
         <div className="side">
           <h3>Rengarenk Karmaşa</h3>
-          <img className="fakeimg" alt="Description of the" src="/images/img-3.jpg" />
+          <img className="fakeimg" alt="Description of the" src={imgs1} />
           <p>Renklerin büyüleyici dansına tanık olun. Birbirine karışan tonlar ve desenler arasında kaybolurken, renklerin karmaşası sizi saran bir büyü haline gelecek. Her fırça darbesiyle yeni bir dünya yaratın ve renklerin büyüsüne kapılın.</p>
           <h3>Duyguların Dalgası</h3>
-          <img className="fakeimg" alt="Description of the" src="/images/img-3.jpg" />
+          <img className="fakeimg" alt="Description of the" src={imgs2} />
           <p>Dalgaların kıyılarına vururken, duyguların sonsuz dalgalanışına tanık olun. Denizin derinliklerinde kaybolurken, içsel yolculuğunuzun başlangıcına adım atın. Her dalga, yeni bir duygu ve düşünceyi beraberinde getirirken, kendinizi sonsuzluğun kollarına bırakın.</p>
           <h3>Gece'nin Şarkısı</h3>
-          <img className="fakeimg" alt="Description of the" src="/images/img-3.jpg" />
+          <img className="fakeimg" alt="Description of the" src={imgs2} />
           <p>Gece'nin sessizliğinde yankılanan şarkıları dinleyin. Yıldızların ışıltısı altında kaybolurken, gece'nin büyüsü sizi saracak. Gölgenin gizemli dansına tanık olun ve gece'nin derinliklerinde kaybolun.</p>
         </div>
       </div>
