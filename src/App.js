@@ -52,7 +52,7 @@ function App() {
           <br /><br />
           <h2>Doğanın Yankısı</h2>
           <img className="fakeimg" alt="Description of the" src={img1} />
-          <p>Casibom Ormanının derinliklerinde gizlenen doğanın yankısına kulak verin. Yemyeşil yaprakların arasında kaybolurken, kuşların melodileriyle bütünleşin. Toprağın kokusu ve rüzgarın esintisiyle uyum içinde olun ve doğanın sırlarını keşfedin.</p>
+          <p>Kasibom Ormanının derinliklerinde gizlenen doğanın yankısına kulak verin. Yemyeşil yaprakların arasında kaybolurken, kuşların melodileriyle bütünleşin. Toprağın kokusu ve rüzgarın esintisiyle uyum içinde olun ve doğanın sırlarını keşfedin.</p>
           <br />
           <h2>Kozmik Dans</h2>
           <img className="fakeimg" alt="Description of the" src={img2} />
