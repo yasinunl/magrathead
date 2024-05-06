@@ -78,7 +78,7 @@ function App() {
           <img className="fakeimg" alt="Description of the" src={imgs2} />
           <p>Dalgaların kıyılarına vururken, duyguların sonsuz dalgalanışına tanık olun. Denizin derinliklerinde kaybolurken, içsel yolculuğunuzun başlangıcına adım atın. Her dalga, yeni bir duygu ve düşünceyi beraberinde getirirken, kendinizi sonsuzluğun kollarına bırakın.</p>
           <h3>Gece'nin Şarkısı</h3>
-          <img className="fakeimg" alt="Description of the" src={imgs2} />
+          <img className="fakeimg" alt="Description of the" src={imgs3} />
           <p>Gece'nin sessizliğinde yankılanan şarkıları dinleyin. Yıldızların ışıltısı altında kaybolurken, gece'nin büyüsü sizi saracak. Gölgenin gizemli dansına tanık olun ve gece'nin derinliklerinde kaybolun.</p>
         </div>
       </div>
