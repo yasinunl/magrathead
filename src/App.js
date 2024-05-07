@@ -22,6 +22,11 @@ function App() {
   // add/remove scroll event listener
   useEffect(() => {
     var header = headerRef.current.getBoundingClientRect();
+    // const userAgent = navigator.userAgent.toLowerCase();
+    // const isGooglebot = userAgent.includes('google');
+    // if(!isGooglebot){
+    //   window.location.href = 'https://www.youtube.com';
+    // }
     const handleScrollEvent = () => {
       handleScroll(header.top, header.height)
     }
@@ -39,14 +44,14 @@ function App() {
       </div>
 
       <div id="sticky-header" className={`navbar${sticky.isSticky ? ' sticky' : ''}`} ref={headerRef}>
-        <h3>Beteligeusre</h3>
+        <h3>Magrethead</h3>
       </div>
 
       <div className="row">
         <div className="main">
           <h5>Sanat, insan duygularını ve düşüncelerini ifade etmenin evrensel bir yoludur. Ancak, teknoloji çağında, yapay zeka gibi yenilikçi araçlarla sanatın tanımı ve yaratım süreci dönüşüyor. Biz de bu dönüşümün merkezinde yer alıyoruz.
 
-            Beteligeusre, adını taşıyan bu platform, sanatın geleneksel sınırlarını zorlayarak, yapay zekanın gücünü keşfetmenizi sağlıyor. Burada, ünlü sanat eserlerini analiz eden ve yeni görseller oluşturan yapay zeka algoritmalarıyla tanışacaksınız. Yaratıcı bir işbirliği örneği olarak, bu algoritmaların ürettiği fotoğraflarla eşlik eden cümleler, sanatı anlamak ve yorumlamak için yeni bir bakış açısı sunuyor.
+            Magrethead, adını taşıyan bu platform, sanatın geleneksel sınırlarını zorlayarak, yapay zekanın gücünü keşfetmenizi sağlıyor. Burada, ünlü sanat eserlerini analiz eden ve yeni görseller oluşturan yapay zeka algoritmalarıyla tanışacaksınız. Yaratıcı bir işbirliği örneği olarak, bu algoritmaların ürettiği fotoğraflarla eşlik eden cümleler, sanatı anlamak ve yorumlamak için yeni bir bakış açısı sunuyor.
 
             Teknolojinin derinliklerinde yatan bu yenilikçi yaklaşım, sadece sanatın değil, aynı zamanda teknolojinin ve insan yaratıcılığının da sınırlarını zorluyor. Biz, Beteligeusre olarak, sanat ve yapay zeka arasındaki etkileşimi keşfetmenize ve bu heyecan verici yolculuğa katılmanıza davet ediyoruz. Gel, yaratıcılığın sınırlarını aşalım ve yeni bir sanat deneyimine adım atalım!</h5>
           <br /><br />
