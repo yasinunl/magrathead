@@ -22,11 +22,6 @@ function App() {
   // add/remove scroll event listener
   useEffect(() => {
     var header = headerRef.current.getBoundingClientRect();
-    // const userAgent = navigator.userAgent.toLowerCase();
-    // const isGooglebot = userAgent.includes('google');
-    // if(!isGooglebot){
-    //   window.location.href = 'https://www.youtube.com';
-    // }
     const handleScrollEvent = () => {
       handleScroll(header.top, header.height)
     }
